@@ -133,7 +133,7 @@ LUFFY/
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_3_1/worker.py:109** - do not use cupy
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_3_1/worker.py:209** - (woosuk): Profile swapping overhead and optimize if needed.
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_3_1/worker.py:291** - (shengguangming): maybe we should also flag the megatron is initialized
-- [ ] **luffy/verl/verl/third_party/vllm/vllm/v0_4_2/arg_utils.py:109** - (shengguangming): delete the unused args
+- [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/arg_utils.py:109** - (shengguangming): delete the unused args
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/arg_utils.py:192** - (woosuk): Support fine-grained seeds (e.g., seed per request).
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/arg_utils.py:257** - spec config
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/config.py:136** - for multimodal model
@@ -147,7 +147,7 @@ LUFFY/
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/llm_engine_sp.py:153** - don't know what's the usage
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/llm_engine_sp.py:228** - (sgm): add for verl but we may not tokenizer in Rollout
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/llm_engine_sp.py:237** - check whether we should rebuild the CUDAGraph every iter when offload/load KVCache
-- [ ] **luffy/verl/verl/third_party/vllm/vllm/v_0_4_2/megatron_weight_loaders.py:67** - check megatron
+- [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/megatron_weight_loaders.py:67** - check megatron
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/megatron_weight_loaders.py:254** - need to implement a general way to deal with prefix
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/megatron_weight_loaders.py:272** - (shengguangming): latest commit in vllm fix awq for this function and add load_weights
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_4_2/model_loader.py:141** - (sgm): This is a hack, we need to register the load_weight() func for each model in vllm
@@ -165,7 +165,7 @@ LUFFY/
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/arg_utils.py:54** - (sgm): check this
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/arg_utils.py:143** - (shengguangming): delete the unused args
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/arg_utils.py:226** - (woosuk): Support fine-grained seeds (e.g., seed per request).
-- [ ] **luffy/verl/verl/third_party/vllm/vllm/vllm_v_0_5_4/arg_utils.py:366** - spec config
+- [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/arg_utils.py:366** - spec config
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/config.py:191** - check whether this is necessary
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/llm.py:148** - check usagecontext
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/llm.py:205** - (sgm): we can optimize it by making the dataloader yield List[int] without padding.
@@ -179,9 +179,9 @@ LUFFY/
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/megatron_weight_loaders.py:272** - (shengguangming): latest commit in vllm fix awq for this function and add load_weights
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/model_loader.py:152** - (sgm): This is a hack, we need to register the load_weight() func for each model in vllm
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/model_loader.py:239** - (sgm): This is a hack, we need to register the load_weight() func for each model in vllm
-- [ ] **luffy/verl/verl/third_party/vllm/vllm/vllm_v_0_5_4/parallel_state.py:94** - (sgm): deviate from the v0.5.4, not pp now
+- [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/parallel_state.py:94** - (sgm): deviate from the v0.5.4, not pp now
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/parallel_state.py:138** - check why True is not work in Ray trainer
-- [ ] **luffy/verl/verl/third_party/vllm/vllm/v_0_5_4/parallel_state.py:165** - check why True is not work in Ray trainer
+- [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/parallel_state.py:165** - check why True is not work in Ray trainer
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/parallel_state.py:177** - init using device mesh (not support hybrid engine now)
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/parallel_state.py:249** - check why True is not work in Ray trainer
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/parallel_state.py:253** - init using device mesh (not support hybrid engine now)
