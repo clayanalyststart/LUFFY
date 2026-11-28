@@ -232,7 +232,7 @@ LUFFY/
 - [ ] **luffy/verl/verl/utils/checkpoint/fsdp_checkpoint_manager.py:135** - address optimizer is None
 - [ ] **luffy/verl/verl/utils/hdfs_io.py:67** - (haibin.lin):
 - [ ] **luffy/verl/verl/utils/hdfs_io.py:102** - (haibin.lin):
-- [ ] **luffy/verl/verl/utils/megatron_utils.py:202** - (sgm): check how to disable megatron_utils.py:202** - (sgm): check how to disable megatron timers
+- [ ] **luffy/verl/verl/utils/megatron_utils.py:202** - (sgm): check how to disable megatron timers
 - [ ] **luffy/verl/verl/utils/model.py:164** - we can make this faster
 - [ ] **luffy/verl/verl/utils/model.py:272** - to find a better way to load mistral7b-rm lm_head
 - [ ] **luffy/verl/verl/utils/torch_functional.py:362** - add them back
